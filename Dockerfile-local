@@ -1,0 +1,6 @@
+FROM openjdk:17-jdk-alpine
+ADD target/HomeworkFK-0.0.1.jar HomeworkFK-0.0.1.jar
+CMD java -jar HomeworkFK-0.0.1.jar
+
+
+
